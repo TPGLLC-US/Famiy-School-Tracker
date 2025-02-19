@@ -42,11 +42,6 @@ npm install
 cp .env.example .env
 ```
 
-4. Start the development server
-```bash
-npm run dev
-```
-
 ## Environment Variables
 
 Create a `.env` file in the root directory with the following variables:
@@ -55,6 +50,13 @@ Create a `.env` file in the root directory with the following variables:
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+
 
 ## Database Setup
 
